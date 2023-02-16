@@ -1,0 +1,4 @@
+Name = rahul shakya
+Age = 24
+Designation = software_engineer
+Salary = 520000
