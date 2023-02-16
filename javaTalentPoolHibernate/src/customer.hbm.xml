@@ -1,0 +1,18 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+"-//Hibernate/Hibernate Mapping DTD//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd"> 
+
+<hibernate-mapping>
+   <class name = "practise1.Customer" table = "customerdetails">
+      
+      <id name = "cust_id" type = "int" column = "cust_id">
+         <generator class="native"/>
+      </id>
+      
+      <property name = "cust_name"/>
+      <property name = "cust_address"/>
+      <property name = "cust_phone"/>
+      
+   </class>
+</hibernate-mapping>
