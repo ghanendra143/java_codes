@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+"-//Hibernate/Hibernate Mapping DTD//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd"> 
+
+<hibernate-mapping>
+   <class name = "com.model.Customer" table = "CustomerDetails">
+      
+      <id name = "custId" >
+         <generator class="increment"/>
+      </id>
+      
+      <property name = "custName" />
+      <property name = "custAge" />
+      <property name = "custAddress" />
+      
+   </class>
+</hibernate-mapping>
